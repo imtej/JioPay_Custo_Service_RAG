@@ -1,0 +1,22 @@
+streamlit==1.43.0
+langchain
+langchain-core
+langchain-community
+faiss-cpu
+
+torch
+# For PDF parsing (if you need it in the same environment)
+pymupdf4llm
+
+# If We're using OpenAI-based LLMs:
+openai
+
+# If we’re using Hugging Face or custom endpoints, we may need:
+# transformers>=4.31.0
+
+sentence-transformers
+# sentence-transformers>=2.2.2
+# huggingface-hub>=0.15.1
+
+# And if we want to ensure no Pydantic v2 issues:
+# pydantic<2
