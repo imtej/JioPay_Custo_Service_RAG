@@ -1,7 +1,7 @@
 ﻿# JioPay_Customer_Service_RAG
 
 
-## RAG Architecture Overview
+## RAG Architecture Overview 
 
 This implements a Retrieval-Augmented Generation (RAG) system using `Streamlit`, `LangChain`, and `Hugging Face` for interactive question-answering based on JioPay Business Customer services and all the other information as a  knowledge base. The architecture integrates document embedding, retrieval, and generative AI for comprehensive and context-aware responses.
 
