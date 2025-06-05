@@ -17,7 +17,7 @@ This implements a Retrieval-Augmented Generation (RAG) system using `Streamlit`,
    - Users interact with the system through a chat interface powered by `Streamlit`. They can input questions and view responses directly within the app.
 
 3. **Language Model Integration:**
-   - The system utilizes `Groq enpoind API` to interface with `llama-3.1-8b-instant` as a LLM
+   - The system utilizes `Groq enpoind API` to interface with `llama-3.1-8b-instruct` as a LLM
    - The selected model generates responses to user queries based on the most relevant document chunks retrieved from the FAISS index.
 
 4. **Retrieval and Generation Workflow:**
